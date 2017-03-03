@@ -1,25 +1,25 @@
-*. KMM: code for KMM adaptation. 
-*. datasets: scripts for loading dataset.
-* density_and_basepred: scripts for creating density estimation and make base
+1. KMM: code for KMM adaptation. 
+2. datasets: scripts for loading dataset.
+3. density_and_basepred: scripts for creating density estimation and make base
   predictors, for sentiment analysis dataset. Driver script: main.sh
-* dev
+4. dev
 ** GD_exp_synthetic.ipynb: run DCA on sample data (data loaded from
 sampledata/ folder)
 ** twoD_plot.ipynb: given z, plot two domain mixtures (kitchn + books, dvd +
 electronics)
 ** GD_exp.ipynb: general script.
-* optimization
+5. optimization
 ** compute_quantities.py: compute hz, Dz, etc.
 ** compute_quantities_log.py: compute hz, Dz, etc, take care of overflow by
 using log values directly.
 ** helper.py: function for projecting points into simplex
 ** problem.py: main script for solveing DCA with customized projected gradient descent
 inner loop.
-* other_alg: contains results of KMM
-* sampledata: contains synthetic datasets and generating script.
-* scripts
+6. other_alg: contains results of KMM
+7. sampledata: contains synthetic datasets and generating script.
+8. scripts
 ** sa_compre_method.py: compare various predictors
 ** make_table.R: combind resutls, compute mean+/-sd and write out latex code for making tables
-* util: miscellaneous
+9. util: miscellaneous
 
 
