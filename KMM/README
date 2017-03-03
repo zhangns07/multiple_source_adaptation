@@ -1,0 +1,11 @@
+Driver scripts:
+- kmm.twoD: for each test mixture lam, compute weights.
+- kmm.foruD: for each test combinations (uniform in its support, e.g. (1/3,1/3,1/3,0), or (1/2,0,1/2,0), compute weights.
+- kmm.foruD_lam1: various permuations of {0.2,0.2,0.2,0.4}, compute weights.
+- kmm.foruD_lam2: various permuations of {0.2,0.2,0.3,0.3}, compute weights.
+
+Support script:
+- kmm.init.R
+
+Notes:
+KMM learns weights on 1600 training data (800 or 400 per domain), which coincides with number of points used to learn base hypotheses on each domain.
