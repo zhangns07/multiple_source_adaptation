@@ -1,5 +1,5 @@
-* KMM: code for KMM adaptation. 
-* datasets: scripts for loading dataset.
+*. KMM: code for KMM adaptation. 
+*. datasets: scripts for loading dataset.
 * density_and_basepred: scripts for creating density estimation and make base
   predictors, for sentiment analysis dataset. Driver script: main.sh
 * dev
